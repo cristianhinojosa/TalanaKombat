@@ -24,7 +24,7 @@ Uso.
 1. Clona el repositorio
 bash
 Copiar código
-    git clone https://github.com/tu_usuario/talana_kombat.git
+    git clone https://github.com/cristianhinojosa/TalanaKombat
     cd talana_kombat
 
 
