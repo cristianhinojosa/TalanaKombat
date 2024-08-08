@@ -1,17 +1,17 @@
-Talana Kombat
+# Talana Kombat
 
 Descripción
 Talana Kombat es un juego basado en texto donde dos personajes, Tonyn Stallone y Arnaldor Shuatseneguer, se enfrentan en un combate hasta la muerte. Cada personaje tiene una serie de movimientos especiales y ataques básicos que se ejecutan en turnos, similar a un juego de rol japonés (JRPG).
 
 Este proyecto incluye la implementación del juego en Python y las pruebas unitarias para verificar el correcto funcionamiento de la lógica del juego. Todo el entorno se puede ejecutar dentro de un contenedor Docker para garantizar la portabilidad y consistencia.
 
-Requisitos:
+## Requisitos:
 
     1) Docker instalado en tu máquina
     
     2) Python 3.9 (si deseas ejecutar el código localmente)
 
-Estructura del Proyecto:
+## Estructura del Proyecto:
 
     1) Dockerfile
     
@@ -26,9 +26,9 @@ README.md: Archivo de documentación.
 talana_kombat.py: Implementación principal del juego.
 test_talana_kombat.py: Pruebas unitarias utilizando unittest.
 
-Uso.
+## Uso.
 
-1. Clona el repositorio:
+### 1. Clona el repositorio:
 
 Copiar código bash:
 
@@ -37,13 +37,13 @@ Copiar código bash:
     cd TalanaKombat
 
 
-2. Construye la imagen Docker
+### 2. Construye la imagen Docker
 
 Copiar código bash:
 
     docker build -t talana_kombat .
 
-3. Ejecuta el contenedor en Docker
+### 3. Ejecuta el contenedor en Docker
 
 Copiar código bash:
     
@@ -51,7 +51,7 @@ Copiar código bash:
    
 Este comando mostrará los resultados en la terminal.
 
-4. Ejecuta el juego localmente (opcional)
+### 4. Ejecuta el juego localmente (opcional)
 
 Si prefieres ejecutar el juego fuera de Docker, puedes hacerlo directamente con Python:
 
@@ -61,9 +61,9 @@ Copiar código bash:
     python talana_kombat.py
 
 
-5. Ejemplos de Combate
+### 5. Ejemplos de Combate
 
 Para ver ejemplos de cómo se desarrollan los combates, revisa los casos de prueba en test_talana_kombat.py.
 
 
-Realizado por Cristian Hinojosa el 8/8/2024
+### Realizado por Cristian Hinojosa el 8/8/2024
