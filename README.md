@@ -6,13 +6,19 @@ Talana Kombat es un juego basado en texto donde dos personajes, Tonyn Stallone y
 Este proyecto incluye la implementación del juego en Python y las pruebas unitarias para verificar el correcto funcionamiento de la lógica del juego. Todo el entorno se puede ejecutar dentro de un contenedor Docker para garantizar la portabilidad y consistencia.
 
 Requisitos:
+
     1) Docker instalado en tu máquina
+    
     2) Python 3.9 (si deseas ejecutar el código localmente)
 
 Estructura del Proyecto:
+
     1) Dockerfile
+    
     2) README.md
+    
     3) talana_kombat.py
+    
     4) test_talana_kombat.py
 
 Dockerfile: Archivo de configuración para construir la imagen Docker.
