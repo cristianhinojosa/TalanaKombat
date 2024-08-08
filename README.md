@@ -27,6 +27,7 @@ talana_kombat.py: Implementación principal del juego.
 test_talana_kombat.py: Pruebas unitarias utilizando unittest.
 
 Uso.
+
 1. Clona el repositorio
 bash
 Copiar código
