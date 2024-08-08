@@ -28,8 +28,10 @@ test_talana_kombat.py: Pruebas unitarias utilizando unittest.
 
 Uso.
 
-1. Clona el repositorio
+1. Clona el repositorio:
+
 bash
+
 Copiar código
 
    git clone https://github.com/cristianhinojosa/TalanaKombat
