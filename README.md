@@ -36,6 +36,7 @@ Copiar código:
 3. Ejecuta las pruebas unitarias en Docker
 bash
 Copiar código:
+    
     docker run --rm talana_kombat
    
     Este comando ejecutará las pruebas unitarias dentro de un contenedor Docker y mostrará los resultados en la terminal.
