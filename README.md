@@ -30,43 +30,38 @@ Uso.
 
 1. Clona el repositorio:
 
-bash
+Copiar código bash:
 
-Copiar código
-
-   git clone https://github.com/cristianhinojosa/TalanaKombat
-
-   cd talana_kombat
+    git clone https://github.com/cristianhinojosa/TalanaKombat
+    
+    cd TalanaKombat
 
 
-3. Construye la imagen Docker
+2. Construye la imagen Docker
 
-bash
-Copiar código:
+Copiar código bash:
 
     docker build -t talana_kombat .
 
-5. Ejecuta las pruebas unitarias en Docker
+3. Ejecuta el contenedor en Docker
 
-bash
-
-Copiar código:
+Copiar código bash:
     
     docker run --rm talana_kombat
    
-    Este comando ejecutará las pruebas unitarias dentro de un contenedor Docker y mostrará los resultados en la terminal.
+Este comando mostrará los resultados en la terminal.
 
-6. Ejecuta el juego localmente (opcional)
+4. Ejecuta el juego localmente (opcional)
 
 Si prefieres ejecutar el juego fuera de Docker, puedes hacerlo directamente con Python:
 
-bash
 
-Copiar código:
+Copiar código bash:
+
     python talana_kombat.py
 
 
-7. Ejemplos de Combate
+5. Ejemplos de Combate
 
 Para ver ejemplos de cómo se desarrollan los combates, revisa los casos de prueba en test_talana_kombat.py.
 
