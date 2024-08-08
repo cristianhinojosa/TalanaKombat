@@ -32,9 +32,9 @@ Uso.
 bash
 Copiar código
 
-    git clone https://github.com/cristianhinojosa/TalanaKombat
-   
-    cd talana_kombat
+   git clone https://github.com/cristianhinojosa/TalanaKombat
+
+   cd talana_kombat
 
 
 3. Construye la imagen Docker
