@@ -37,16 +37,15 @@ Copiar código:
 bash
 Copiar código:
     docker run --rm talana_kombat
+    Este comando ejecutará las pruebas unitarias dentro de un contenedor Docker y mostrará los resultados en la terminal.
 
-Este comando ejecutará las pruebas unitarias dentro de un contenedor Docker y mostrará los resultados en la terminal.
-
-4. Ejecuta el juego localmente (opcional)
+5. Ejecuta el juego localmente (opcional)
 Si prefieres ejecutar el juego fuera de Docker, puedes hacerlo directamente con Python:
 bash
 Copiar código:
     python talana_kombat.py
 
-5. Ejemplos de Combate
+6. Ejemplos de Combate
 Para ver ejemplos de cómo se desarrollan los combates, revisa los casos de prueba en test_talana_kombat.py.
 
 Realizado por Cristian Hinojosa el 8/8/2024
